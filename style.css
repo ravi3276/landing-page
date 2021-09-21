@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    height: 80vh;
+    background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img{
+    object-fit: contain;
+    padding-left: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:10px;
+}
+
+.menu span{
+    padding:10px;
+    color:white;
+    cursor: pointer;
+}
+.menu span:hover{
+    color:#f8f8f8;
+}
+
+.contact{
+    background-color: white;
+    padding:8px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 30px;
+
+}
+
+.title span{
+    text-transform: uppercase;
+    color:white;
+    font-family: "Helvetica Neue";
+    letter-spacing:6px;
+    font-weight: bold;
+}
+
+.title img{
+    object-fit: contain;
+    margin-top:60px;
+}
+
+.section1{
+    display: flex;
+    height:350px;
+}
+
+
+.section1 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text__container{
+    width:70%;
+}
+
+.right img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.left .right {
+    flex: 1;
+}
+
+.text__container h1{
+    font-size: 70px;
+    margin-bottom:10px;
+}
+
+.text__container p{
+    color: grey;
+    font-size:18px;
+    line-height: 1.5;
+}
+
+.text__container img{
+    padding-top:10px;
+    width:30%;
+    object-fit:contain;
+    cursor: pointer;
+}
+
+.section2{
+    display: flex;
+    background-color:#f8f8f8;
+    height:50vh;
+    /* width:100%; */
+}
+
+.section2 .left,.section2 .right{
+    flex: 1;
+}
+
+.left img ,.right img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.clienttestimonials h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top:40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+
+}
+
+.clients{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients img{
+    margin:25px 0;
+}
+
+.clients p{
+    font-size:18px;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 25px;
+    line-height:1.3em;
+    color: grey;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.sign h4{
+    font-weight: bold;
+    font-size:20px;
+    padding-bottom:3px;
+}
+
+.sign span{
+    color:grey;
+}
+.client__container{
+    display: flex;
+}
+
+.images{
+    display: flex;
+}
+.img__container{
+    flex:0.25;
+    /* height: 50%; */
+}
+.img__container img{
+    width:100%;
+    height: 250px;
+
+    object-fit:cover;
+}
+
+.footer{
+    background-color:#90D4c5;
+    height:200px;
+    text-align: center;
+    /* display: flex; */
+    /* align-items:center; */
+    /* justify-content: center; */
+}
+
+.footer__logo{
+    padding-top:30px;
+}
+.footer__desc{
+    padding-top:15px;
+    display: flex;
+    justify-content: center;
+}
+span{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: black ;
+    cursor: pointer;
+}
+
+.footer__desc span:hover{
+    color:#2D7465;
+}
